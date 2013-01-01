@@ -611,16 +611,23 @@ header section ul li:nth-child(1n+1) {
   font-weight: normal;
   color: #636363;
 }
-#examples ul li a:hover {
-  text-decoration: underline;
-}
-#examples ul li h3 {
+#examples ul li a h3 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 900;
   font-size: 21px;
   padding-top: 25px;
   padding-bottom: 13px;
   color: #454545;
+  display: inline-block;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+}
+#examples ul li a:hover {
+  text-decoration: none;
+}
+#examples ul li a:hover h3 {
+  border-bottom: 1px dotted #454545;
+  padding-bottom: 2px;
 }
 #examples ul li span {
   font-size: 16px;
@@ -802,7 +809,7 @@ header section ul li:nth-child(1n+1) {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 900;
   font-size: 21px;
-  padding-top: 25px;
+  padding-top: 0px;
   padding-bottom: 13px;
   color: #454545;
 }
@@ -901,7 +908,7 @@ footer div #company a span {
   font-size: 24px;
   letter-spacing: 8px;
   color: white;
-  padding-left: 10px;
+  padding-left: 6px;
 }
 footer div #meta {
   overflow: hidden;

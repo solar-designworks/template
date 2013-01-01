@@ -16,20 +16,31 @@
 				font-family: Arial, sans-serif;
 				font-weight: normal;
 				color: $color_body;
+
+				h3{
+					font-family: 'Raleway', Arial, sans-serif;
+					font-weight: 900;
+					font-size: 21px;
+					padding-top: 25px;
+					padding-bottom: 13px;
+					color: $color_nearlynearlyblack;
+
+					display: inline-block;
+					padding-bottom: 3px;
+					margin-bottom: 10px;
+				}
 			}
 
 			a:hover{
-				text-decoration: underline;
+				text-decoration: none;
+
+				h3{
+					border-bottom: 1px dotted #454545;
+					padding-bottom: 2px;
+				}
 			}
 
-			h3{
-				font-family: 'Raleway', Arial, sans-serif;
-				font-weight: 900;
-				font-size: 21px;
-				padding-top: 25px;
-				padding-bottom: 13px;
-				color: $color_nearlynearlyblack;
-			}
+			
 
 			span{
 				font-size: 16px;

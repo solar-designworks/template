@@ -159,7 +159,7 @@ article {
   margin: 0 auto;
   margin-bottom: 80px;
 }
-article h2 {
+article h3 {
   width: 100%;
   text-align: center;
   font-family: 'Raleway', Arial, sans-serif;
@@ -169,7 +169,7 @@ article h2 {
   padding-bottom: 55px;
   color: #b7b7b7;
 }
-article h2.seperator {
+article h3.seperator {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -390,9 +390,11 @@ nav div ul li:first-child a {
 }
 nav div ul #navDownload {
   background-position: 0 -443px;
+  display: none;
 }
 nav div ul #navGithub {
   background-position: 0 -311px;
+  display: none;
 }
 nav div ul #navFacebook {
   background-position: 0 -396px;
@@ -400,10 +402,16 @@ nav div ul #navFacebook {
 nav div ul #navTwitter {
   background-position: 0 -264px;
 }
-nav div ul x:-o-prefocus, nav div ul #gridButton {
-  display: none;
-}
 
+@media screen and (min-width: 700px) {
+  #navDownload {
+    display: inline-block !important;
+  }
+
+  #navGithub {
+    display: inline-block !important;
+  }
+}
 header {
   width: 960px;
   max-width: 960px;
@@ -518,7 +526,7 @@ footer div {
   max-width: 960px;
   margin: 0 auto;
 }
-footer div h2 {
+footer div h3 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 200;
   font-size: 16px;
@@ -533,6 +541,7 @@ footer div #company {
   width: 960px;
   margin: 0 auto;
   max-width: 960px;
+  text-align: center;
 }
 footer div #company a {
   text-align: center;
@@ -540,11 +549,7 @@ footer div #company a {
   text-decoration: none;
 }
 footer div #company a img {
-  float: left;
-  margin-right: -100%;
-  width: 306.66667px;
-  margin-left: 326.66667px;
-  float: none !important;
+  margin: 0 auto;
 }
 footer div #company a span {
   width: 100%;
@@ -579,7 +584,7 @@ footer div #meta div:first-child {
   color: #898989;
   line-height: 12px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 footer div #meta div:nth-child(2) {
   float: left;
@@ -693,7 +698,7 @@ article {
   margin: 0 auto;
   margin-bottom: 80px;
 }
-article h2 {
+article h3 {
   width: 100%;
   text-align: center;
   font-family: 'Raleway', Arial, sans-serif;
@@ -703,7 +708,7 @@ article h2 {
   padding-bottom: 55px;
   color: #b7b7b7;
 }
-article h2.seperator {
+article h3.seperator {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -924,9 +929,11 @@ nav div ul li:first-child a {
 }
 nav div ul #navDownload {
   background-position: 0 -443px;
+  display: none;
 }
 nav div ul #navGithub {
   background-position: 0 -311px;
+  display: none;
 }
 nav div ul #navFacebook {
   background-position: 0 -396px;
@@ -934,10 +941,16 @@ nav div ul #navFacebook {
 nav div ul #navTwitter {
   background-position: 0 -264px;
 }
-nav div ul x:-o-prefocus, nav div ul #gridButton {
-  display: none;
-}
 
+@media screen and (min-width: 700px) {
+  #navDownload {
+    display: inline-block !important;
+  }
+
+  #navGithub {
+    display: inline-block !important;
+  }
+}
 header {
   width: 320px;
   max-width: 960px;
@@ -1052,7 +1065,7 @@ footer div {
   max-width: 960px;
   margin: 0 auto;
 }
-footer div h2 {
+footer div h3 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 200;
   font-size: 16px;
@@ -1067,6 +1080,7 @@ footer div #company {
   width: 320px;
   margin: 0 auto;
   max-width: 960px;
+  text-align: center;
 }
 footer div #company a {
   text-align: center;
@@ -1074,11 +1088,7 @@ footer div #company a {
   text-decoration: none;
 }
 footer div #company a img {
-  float: left;
-  margin-right: -100%;
-  width: 100px;
-  margin-left: 110px;
-  float: none !important;
+  margin: 0 auto;
 }
 footer div #company a span {
   width: 100%;
@@ -1113,7 +1123,7 @@ footer div #meta div:first-child {
   color: #898989;
   line-height: 12px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 footer div #meta div:nth-child(2) {
   float: left;
@@ -1329,7 +1339,7 @@ h1:after {
     margin: 0 auto;
     margin-bottom: 80px;
   }
-  article h2 {
+  article h3 {
     width: 100%;
     text-align: center;
     font-family: 'Raleway', Arial, sans-serif;
@@ -1339,7 +1349,7 @@ h1:after {
     padding-bottom: 55px;
     color: #b7b7b7;
   }
-  article h2.seperator {
+  article h3.seperator {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
@@ -1560,18 +1570,17 @@ h1:after {
   }
   nav div ul #navDownload {
     background-position: 0 -443px;
+    display: none;
   }
   nav div ul #navGithub {
     background-position: 0 -311px;
+    display: none;
   }
   nav div ul #navFacebook {
     background-position: 0 -396px;
   }
   nav div ul #navTwitter {
     background-position: 0 -264px;
-  }
-  nav div ul x:-o-prefocus, nav div ul #gridButton {
-    display: none;
   }
 
   header {
@@ -1659,7 +1668,7 @@ h1:after {
     max-width: 960px;
     margin: 0 auto;
   }
-  footer div h2 {
+  footer div h3 {
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 200;
     font-size: 16px;
@@ -1674,6 +1683,7 @@ h1:after {
     width: 720px;
     margin: 0 auto;
     max-width: 960px;
+    text-align: center;
   }
   footer div #company a {
     text-align: center;
@@ -1681,11 +1691,7 @@ h1:after {
     text-decoration: none;
   }
   footer div #company a img {
-    float: left;
-    margin-right: -100%;
-    width: 233.33333px;
-    margin-left: 243.33333px;
-    float: none !important;
+    margin: 0 auto;
   }
   footer div #company a span {
     width: 100%;
@@ -1720,7 +1726,7 @@ h1:after {
     color: #898989;
     line-height: 12px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 55px;
   }
   footer div #meta div:nth-child(2) {
     float: left;
@@ -1890,6 +1896,15 @@ h1:after {
     content: " 720";
   }
 }
+@media screen and (min-width: 720px) and (min-width: 700px) {
+  #navDownload {
+    display: inline-block !important;
+  }
+
+  #navGithub {
+    display: inline-block !important;
+  }
+}
 @media screen and (min-width: 720px) and (min-width: 460px) {
   header .center h1 {
     font-size: 32px;
@@ -1965,7 +1980,7 @@ h1:after {
     margin: 0 auto;
     margin-bottom: 80px;
   }
-  article h2 {
+  article h3 {
     width: 100%;
     text-align: center;
     font-family: 'Raleway', Arial, sans-serif;
@@ -1975,7 +1990,7 @@ h1:after {
     padding-bottom: 55px;
     color: #b7b7b7;
   }
-  article h2.seperator {
+  article h3.seperator {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
@@ -2196,18 +2211,17 @@ h1:after {
   }
   nav div ul #navDownload {
     background-position: 0 -443px;
+    display: none;
   }
   nav div ul #navGithub {
     background-position: 0 -311px;
+    display: none;
   }
   nav div ul #navFacebook {
     background-position: 0 -396px;
   }
   nav div ul #navTwitter {
     background-position: 0 -264px;
-  }
-  nav div ul x:-o-prefocus, nav div ul #gridButton {
-    display: none;
   }
 
   header {
@@ -2295,7 +2309,7 @@ h1:after {
     max-width: 960px;
     margin: 0 auto;
   }
-  footer div h2 {
+  footer div h3 {
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 200;
     font-size: 16px;
@@ -2310,6 +2324,7 @@ h1:after {
     width: 960px;
     margin: 0 auto;
     max-width: 960px;
+    text-align: center;
   }
   footer div #company a {
     text-align: center;
@@ -2317,11 +2332,7 @@ h1:after {
     text-decoration: none;
   }
   footer div #company a img {
-    float: left;
-    margin-right: -100%;
-    width: 306.66667px;
-    margin-left: 326.66667px;
-    float: none !important;
+    margin: 0 auto;
   }
   footer div #company a span {
     width: 100%;
@@ -2356,7 +2367,7 @@ h1:after {
     color: #898989;
     line-height: 12px;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 55px;
   }
   footer div #meta div:nth-child(2) {
     float: left;
@@ -2524,6 +2535,15 @@ h1:after {
 
   h1:after {
     content: " 960";
+  }
+}
+@media screen and (min-width: 960px) and (min-width: 700px) {
+  #navDownload {
+    display: inline-block !important;
+  }
+
+  #navGithub {
+    display: inline-block !important;
   }
 }
 @media screen and (min-width: 960px) and (min-width: 460px) {

@@ -5,7 +5,7 @@ A responsive grid system for fixed and fluid layouts. Built in SCSS/Compass.
 
 ### Basic Usage
 
-Pretty much everything in this repo is one big example. The grid is just one file: /sass/grid/_grid.scss
+This repo is a mirror of http://www.profoundgrid.com and should be understood as one big example. The grid is just one file: /sass/grid/_grid.scss
 
 ```sass
 // //////////////////////
@@ -35,7 +35,11 @@ $max_width: 1233px;
 
 ### Credits
 Credits/Inspiration:
- * -------------------
  * [Semantic Grid](http://www.semantic.gs) Semantic Grid
  * [Susy](http://susy.oddbird.net) Amazing Fluid Grids
  * [Negative Grid](http://chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta/) Negative Margins
+
+
+Profound Creative Studio
+http://www.profoundgrid.com
+http://www.weareprofound.com 

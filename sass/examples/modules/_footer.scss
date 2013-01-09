@@ -10,7 +10,7 @@ footer{
 		margin: 0 auto;	
 	
 		
-		h2{
+		h3{
 			font-family: 'Raleway', Arial, sans-serif;
 			font-weight: 200;
 			font-size: 16px;
@@ -22,8 +22,9 @@ footer{
 
 		#company{
 			@include clearfix();
-				@include container();
-				max-width: $max_width;
+			@include container();
+			max-width: $max_width;
+			text-align: center;
 
 			a{			
 				text-align: center;
@@ -31,9 +32,7 @@ footer{
 				text-decoration: none;
 
 				img{
-					@include column(4);
-					@include push(4);
-					float: none !important;
+					margin:0 auto;
 				}
 
 				span{
@@ -68,7 +67,7 @@ footer{
 				color: #898989;
 				line-height: 12px;
 				text-align: center;
-				margin-top: 50px;
+				margin-top: 55px;
 			}
 
 			div:nth-child(2){

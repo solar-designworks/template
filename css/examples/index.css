@@ -159,7 +159,7 @@ article {
   margin: 0 auto;
   margin-bottom: 80px;
 }
-article h2 {
+article h3 {
   width: 100%;
   text-align: center;
   font-family: 'Raleway', Arial, sans-serif;
@@ -169,7 +169,7 @@ article h2 {
   padding-bottom: 55px;
   color: #b7b7b7;
 }
-article h2.seperator {
+article h3.seperator {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -390,9 +390,11 @@ nav div ul li:first-child a {
 }
 nav div ul #navDownload {
   background-position: 0 -443px;
+  display: none;
 }
 nav div ul #navGithub {
   background-position: 0 -311px;
+  display: none;
 }
 nav div ul #navFacebook {
   background-position: 0 -396px;
@@ -400,10 +402,16 @@ nav div ul #navFacebook {
 nav div ul #navTwitter {
   background-position: 0 -264px;
 }
-nav div ul x:-o-prefocus, nav div ul #gridButton {
-  display: none;
-}
 
+@media screen and (min-width: 700px) {
+  #navDownload {
+    display: inline-block !important;
+  }
+
+  #navGithub {
+    display: inline-block !important;
+  }
+}
 header {
   width: 100%;
   background: #fff200;
@@ -434,7 +442,7 @@ header .seperator {
   width: 15%;
   margin: 0 auto;
 }
-header p {
+header h2 {
   text-align: center;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 200;
@@ -473,6 +481,7 @@ header section ul li h3 {
   color: #454545;
 }
 header section ul li p {
+  text-align: center;
   margin-left: 5%;
   margin-right: 5%;
   text-align: center;
@@ -498,7 +507,7 @@ header section ul li:nth-child(1n+1) {
 }
 
 @media screen and (min-width: 460px) {
-  header p {
+  header h2 {
     font-size: 26px;
     line-height: 33px;
     margin-left: 5%;
@@ -515,7 +524,7 @@ header section ul li:nth-child(1n+1) {
   }
 }
 @media screen and (min-width: 550px) {
-  header p {
+  header h2 {
     font-size: 28px;
     line-height: 38px;
     margin-left: 10%;
@@ -531,7 +540,7 @@ header section ul li:nth-child(1n+1) {
   }
 }
 @media screen and (min-width: 700px) {
-  header p {
+  header h2 {
     font-size: 30px;
     line-height: 38px;
     margin-left: 20%;
@@ -574,7 +583,7 @@ header section ul li:nth-child(1n+1) {
   }
 }
 @media screen and (min-width: 900px) {
-  header p {
+  header h2 {
     font-size: 32px;
     line-height: 48px;
     margin-left: 22%;
@@ -611,7 +620,7 @@ header section ul li:nth-child(1n+1) {
   font-weight: normal;
   color: #636363;
 }
-#examples ul li a h3 {
+#examples ul li a h4 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 900;
   font-size: 21px;
@@ -805,7 +814,7 @@ header section ul li:nth-child(1n+1) {
   margin-right: -100%;
   width: 100%;
 }
-#reference ul li h3 {
+#reference ul li h4 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 900;
   font-size: 21px;
@@ -871,7 +880,7 @@ footer div {
   max-width: 1233px;
   margin: 0 auto;
 }
-footer div h2 {
+footer div h3 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 200;
   font-size: 16px;
@@ -886,6 +895,7 @@ footer div #company {
   width: 92.3%;
   margin: 0 3.85%;
   max-width: 1233px;
+  text-align: center;
 }
 footer div #company a {
   text-align: center;
@@ -893,11 +903,7 @@ footer div #company a {
   text-decoration: none;
 }
 footer div #company a img {
-  float: left;
-  margin-right: -100%;
-  width: 30.77%;
-  margin-left: 34.62%;
-  float: none !important;
+  margin: 0 auto;
 }
 footer div #company a span {
   width: 100%;
@@ -932,7 +938,7 @@ footer div #meta div:first-child {
   color: #898989;
   line-height: 12px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 55px;
 }
 footer div #meta div:nth-child(2) {
   float: left;

@@ -111,10 +111,12 @@ nav{
 
 			#navDownload{
 				@include icons-sprite(download);
+				display:none;
 			}
 
 			#navGithub{
 				@include icons-sprite(github);
+				display:none;
 			}
 
 			#navFacebook{
@@ -124,10 +126,33 @@ nav{
 			#navTwitter{
 				@include icons-sprite(twitter);
 			}
-
-			x:-o-prefocus, #gridButton {
-			  display: none;
-			}
 		}
 	}
+}
+
+// ///////////////////////////
+// MEDIA QUERIES
+// ///////////////////////////
+
+@media screen and (min-width: 460px) {
+	
+}
+
+@media screen and (min-width: 550px) {
+}
+
+@media screen and (min-width: 700px) {
+	#navDownload{
+		display: inline-block !important;
+	}
+
+	#navGithub{
+		display: inline-block !important;
+	}
+
+}
+
+
+
+@media screen and (min-width: 900px) {
 }

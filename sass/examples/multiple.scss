@@ -150,7 +150,7 @@ article{
 $total_width: 100%;
 $container_margin: 1%;
 $gutter_width: 2%;
-$max_width: 9000px;
+$max_width: 100%;
 
 $color_yellow: #fff200;
 $color_nearlyblack: #252525;
@@ -163,6 +163,6 @@ $color_headlines: #b7b7b7;
 	@include container();
 	@include clearfix();
 	@include generate_helper_classes();
-	max-width: 9000px;
+	max-width: $max_width;
 	margin-bottom: $gutter_width;
 }

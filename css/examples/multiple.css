@@ -2785,7 +2785,7 @@ article {
   /* Helper Class: Container */
   /* Helper Class: Columns */
   /* Helper Class: Horizontal Position */
-  max-width: 9000px;
+  max-width: 100%;
   margin-bottom: 2%;
 }
 .grid2 .row {

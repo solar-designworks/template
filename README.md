@@ -33,7 +33,7 @@ $max_width: 1233px;
 }
 ```
 
-### License
+### License: [WTFPL](http://en.wikipedia.org/wiki/WTFPL)
 ```
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004

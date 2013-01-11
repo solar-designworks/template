@@ -171,8 +171,9 @@ header{
 	header h2{
 		font-size: 32px;
 		line-height: 48px;		
-		margin-left:22%;
-		margin-right:22%;
+		max-width: 800px !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
 	}
 
 	section ul li p {

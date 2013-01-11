@@ -12,7 +12,7 @@ This repo is a mirror of http://www.profoundgrid.com and should be understood as
 // CONFIG
 // //////////////////////
 
-@import 'grid/grid';"
+@import 'grid/grid';
 
 $total_width: 100%;
 $container_margin: 3.85%;

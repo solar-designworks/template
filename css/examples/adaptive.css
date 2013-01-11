@@ -530,7 +530,7 @@ footer div h3 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 200;
   font-size: 16px;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 0px;
   text-align: center;
   letter-spacing: 5px;
@@ -547,20 +547,16 @@ footer div #company a {
   text-align: center;
   color: white;
   text-decoration: none;
-}
-footer div #company a img {
-  margin: 0 auto;
-}
-footer div #company a span {
-  width: 100%;
-  float: none !important;
+  height: 22px;
   display: block;
+  background: url("/img/logo_bottom.png") top center no-repeat;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 900;
   font-size: 24px;
   letter-spacing: 8px;
   color: white;
-  padding-left: 6px;
+  padding-left: 13px;
+  padding-top: 113px;
 }
 footer div #meta {
   overflow: hidden;
@@ -1069,7 +1065,7 @@ footer div h3 {
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 200;
   font-size: 16px;
-  padding-top: 90px;
+  padding-top: 80px;
   padding-bottom: 0px;
   text-align: center;
   letter-spacing: 5px;
@@ -1086,20 +1082,16 @@ footer div #company a {
   text-align: center;
   color: white;
   text-decoration: none;
-}
-footer div #company a img {
-  margin: 0 auto;
-}
-footer div #company a span {
-  width: 100%;
-  float: none !important;
+  height: 22px;
   display: block;
+  background: url("/img/logo_bottom.png") top center no-repeat;
   font-family: 'Raleway', Arial, sans-serif;
   font-weight: 900;
   font-size: 24px;
   letter-spacing: 8px;
   color: white;
-  padding-left: 6px;
+  padding-left: 13px;
+  padding-top: 113px;
 }
 footer div #meta {
   overflow: hidden;
@@ -1672,7 +1664,7 @@ h1:after {
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 200;
     font-size: 16px;
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 0px;
     text-align: center;
     letter-spacing: 5px;
@@ -1689,20 +1681,16 @@ h1:after {
     text-align: center;
     color: white;
     text-decoration: none;
-  }
-  footer div #company a img {
-    margin: 0 auto;
-  }
-  footer div #company a span {
-    width: 100%;
-    float: none !important;
+    height: 22px;
     display: block;
+    background: url("/img/logo_bottom.png") top center no-repeat;
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 900;
     font-size: 24px;
     letter-spacing: 8px;
     color: white;
-    padding-left: 6px;
+    padding-left: 13px;
+    padding-top: 113px;
   }
   footer div #meta {
     overflow: hidden;
@@ -2313,7 +2301,7 @@ h1:after {
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 200;
     font-size: 16px;
-    padding-top: 90px;
+    padding-top: 80px;
     padding-bottom: 0px;
     text-align: center;
     letter-spacing: 5px;
@@ -2330,20 +2318,16 @@ h1:after {
     text-align: center;
     color: white;
     text-decoration: none;
-  }
-  footer div #company a img {
-    margin: 0 auto;
-  }
-  footer div #company a span {
-    width: 100%;
-    float: none !important;
+    height: 22px;
     display: block;
+    background: url("/img/logo_bottom.png") top center no-repeat;
     font-family: 'Raleway', Arial, sans-serif;
     font-weight: 900;
     font-size: 24px;
     letter-spacing: 8px;
     color: white;
-    padding-left: 6px;
+    padding-left: 13px;
+    padding-top: 113px;
   }
   footer div #meta {
     overflow: hidden;

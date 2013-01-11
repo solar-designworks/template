@@ -136,10 +136,7 @@
             <div class="center">
                 <h3>BUILT BY</h3>
                 <section id="company">
-                    <a href="http://www.weareprofound.com">
-                        <img src="/img/logo_bottom.png" />
-                        <span>PROFOUND</span>
-                    </a>
+                    <a href="http://www.weareprofound.com">PROFOUND</a>
                 </section>
                 <section id="meta">
                     <div>Copyright &copy; 2009-2012 Profound Creative Studio LLC. All rights reserved. </div>
@@ -181,25 +178,30 @@
             }
 
             // TOOLTIP
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent);
             $('nav a').hover(function(){
-                var pos = $(this).offset();
-                var title = $(this).attr('title');
-                if ($.trim(title) == ''){
-                    return;
+                if (isMobile == false){
+                    var pos = $(this).offset();
+                    var title = $(this).attr('title');
+                    if ($.trim(title) == ''){
+                        return;
+                    }
+                    $(this).data('tipText', title).removeAttr('title');
+                    if($('.tooltip').length == 0) {
+                        var html = '<p class="tooltip"></p>';
+                        $('body').append(html);
+                    }
+                    $('.tooltip').html('<div class="arrow"></div><div>'+title+'</div>');
+                    $('.tooltip').css('top', pos.top+55).css('left', pos.left+25);
+                    var width = $('.tooltip').outerWidth();
+                    $('.tooltip').css('margin-left', 0-width*0.5);
+                    $('.tooltip').addClass('show');
                 }
-                $(this).data('tipText', title).removeAttr('title');
-                if($('.tooltip').length == 0) {
-                    var html = '<p class="tooltip"></p>';
-                    $('body').append(html);
-                }
-                $('.tooltip').html('<div class="arrow"></div><div>'+title+'</div>');
-                $('.tooltip').css('top', pos.top+55).css('left', pos.left+25);
-                var width = $('.tooltip').outerWidth();
-                $('.tooltip').css('margin-left', 0-width*0.5);
-                $('.tooltip').addClass('show');
             }, function() {
-                $('.tooltip').removeClass('show');
-                $(this).attr('title', $(this).data('tipText'));
+                if (isMobile == false){
+                    $('.tooltip').removeClass('show');
+                    $(this).attr('title', $(this).data('tipText'));
+                }
             });
 
             

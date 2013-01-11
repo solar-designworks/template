@@ -14,7 +14,7 @@ footer{
 			font-family: 'Raleway', Arial, sans-serif;
 			font-weight: 200;
 			font-size: 16px;
-			padding-top: 90px;
+			padding-top: 80px;
 			padding-bottom: 0px;
 			text-align: center;
 			letter-spacing: 5px;
@@ -30,22 +30,18 @@ footer{
 				text-align: center;
 				color: white;
 				text-decoration: none;
-
-				img{
-					margin:0 auto;
-				}
-
-				span{
-					width: 100%;
-					float: none !important;
-					display: block;
-					font-family: 'Raleway', Arial, sans-serif;
-					font-weight: 900;
-					font-size: 24px;
-					letter-spacing: 8px;
-					color: white;
-					padding-left: 6px;
-				}
+				height: 22px;
+				display: block;
+				background: url('/img/logo_bottom.png') top center no-repeat;
+					
+				font-family: 'Raleway', Arial, sans-serif;
+				font-weight: 900;
+				font-size: 24px;
+				letter-spacing: 8px;
+				color: white;
+				padding-left: 13px;
+				padding-top: 113px;
+				
 			}
 		}
 
@@ -124,10 +120,6 @@ footer{
 	}		
 }
 
-@media screen and (min-width: 550px) {
-	
-}
-
 @media screen and (min-width: 700px) {
 	footer {
 		div{
@@ -148,9 +140,4 @@ footer{
 			}
 		}
 	}	
-}
-
-
-
-@media screen and (min-width: 900px) {
 }

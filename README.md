@@ -49,8 +49,7 @@ as the name is changed.
  0. You just DO WHAT THE FUCK YOU WANT TO.
 ```
 
-### Credits
-Credits/Inspiration:
+### Credits/Inspiration:
  * [Semantic Grid](http://www.semantic.gs) Semantic Grid
  * [Susy](http://susy.oddbird.net) Amazing Fluid Grids
  * [Negative Grid](http://chrisplaneta.com/freebies/negativegrid-fluid-css-grid-by-chris-planeta/) Negative Margins

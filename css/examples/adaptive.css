@@ -520,6 +520,7 @@ footer {
   width: 960px;
   background: #252525;
   color: white;
+  margin-top: 60px;
 }
 footer div {
   width: 960px;
@@ -1055,6 +1056,7 @@ footer {
   width: 320px;
   background: #252525;
   color: white;
+  margin-top: 60px;
 }
 footer div {
   width: 320px;
@@ -1654,6 +1656,7 @@ h1:after {
     width: 720px;
     background: #252525;
     color: white;
+    margin-top: 60px;
   }
   footer div {
     width: 720px;
@@ -2291,6 +2294,7 @@ h1:after {
     width: 960px;
     background: #252525;
     color: white;
+    margin-top: 60px;
   }
   footer div {
     width: 960px;

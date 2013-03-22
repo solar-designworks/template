@@ -958,6 +958,11 @@ article {
     margin-right: -100%;
     width: 23.5%;
   }
+  #row3 div.last {
+    float: left;
+    margin-right: -100%;
+    width: 23.5%;
+  }
   #row3 div:nth-child(4n+1) {
     margin-left: 0%;
     margin-bottom: 2%;

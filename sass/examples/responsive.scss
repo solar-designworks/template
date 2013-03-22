@@ -149,6 +149,7 @@ article{
 	}
 	#row3{
 		div{@include column(3);}
+		div.last{@include column(3);}
 		@include generate_grid_positions(div, 3);
 	}
 	#row4{

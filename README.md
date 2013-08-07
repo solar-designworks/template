@@ -3,14 +3,17 @@ Profound Grid
 
 A responsive grid system for fixed and fluid layouts. Built in SCSS/Compass.
 
+_This is the Solar Designworks fork of the Profound Grid where many things
+have been stripped off to provide a more lean and clean boilerplate to begin
+from._
+
 ### Requirements
 
 Sass >= 3.2.5 
 
-
 ### Basic Usage
 
-This repo is a mirror of http://www.profoundgrid.com and should be understood as one big example. The grid is just one file: /sass/grid/_grid.scss
+The grid is just one file: /sass/grid/_grid.scss
 
 ```sass
 // //////////////////////
@@ -61,4 +64,8 @@ as the name is changed.
 
 ### Profound Creative Studio
  * http://www.profoundgrid.com
- * http://www.weareprofound.com 
+ * http://www.weareprofound.com
+
+### Solar Designworks
+ * http://www.solar-designworks.com
+ * https://github.com/solar-designworks

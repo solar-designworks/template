@@ -2,6 +2,13 @@
 # ---------------------
 /sass/.sass-cache
 
+# PROJECT
+# ---------------------
+css/*
+img/*
+!css/.gitignore
+!img/.gitkeep
+
 # GLOBAL IGNORES
 # ---------------------
 *.tmproj
